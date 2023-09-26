@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit {
+    background-color: #0c79ed;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the room containers */
+.room1, .room2, .room3, .room4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.room1 img,
+.room2 img,
+.room3 img,
+.room4 img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 5px !important;
+}
+
+.room1 h2,
+.room2 h2,
+.room3 h2,
+.room4 h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.room1 p,
+.room2 p,
+.room3 p,
+.room4 p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.room1 h3,
+.room2 h3,
+.room3 h3,
+.room4 h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+/* Center align text in the rooms */
+.room1, .room2, .room3, .room4 {
+    text-align: center;
+}
